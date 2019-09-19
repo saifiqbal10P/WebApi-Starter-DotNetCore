@@ -1,0 +1,16 @@
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Service\bin\Debug\netcoreapp2.1\Template.Service.deps.json
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Service\bin\Debug\netcoreapp2.1\Template.Service.dll
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Service\bin\Debug\netcoreapp2.1\Template.Service.pdb
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Service\obj\Debug\netcoreapp2.1\Template.Service.csproj.CoreCompileInputs.cache
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Service\obj\Debug\netcoreapp2.1\Template.Service.AssemblyInfoInputs.cache
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Service\obj\Debug\netcoreapp2.1\Template.Service.AssemblyInfo.cs
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Service\obj\Debug\netcoreapp2.1\Template.Service.dll
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Service\obj\Debug\netcoreapp2.1\Template.Service.pdb
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Service\bin\Debug\netcoreapp2.1\Recipe.NetCore.dll
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Service\bin\Debug\netcoreapp2.1\Template.Common.dll
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Service\bin\Debug\netcoreapp2.1\Template.Core.dll
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Service\bin\Debug\netcoreapp2.1\Recipe.NetCore.pdb
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Service\bin\Debug\netcoreapp2.1\Template.Core.pdb
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Service\bin\Debug\netcoreapp2.1\Template.Common.pdb
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Service\obj\Debug\netcoreapp2.1\Template.Service.csprojAssemblyReference.cache
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Service\obj\Debug\netcoreapp2.1\Template.Service.csproj.CopyComplete

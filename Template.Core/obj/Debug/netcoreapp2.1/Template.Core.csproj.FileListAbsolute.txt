@@ -1,0 +1,16 @@
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Core\bin\Debug\netcoreapp2.1\Template.Core.deps.json
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Core\bin\Debug\netcoreapp2.1\Template.Core.runtimeconfig.json
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Core\bin\Debug\netcoreapp2.1\Template.Core.runtimeconfig.dev.json
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Core\bin\Debug\netcoreapp2.1\Template.Core.dll
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Core\bin\Debug\netcoreapp2.1\Template.Core.pdb
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Core\bin\Debug\netcoreapp2.1\Recipe.NetCore.dll
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Core\bin\Debug\netcoreapp2.1\Template.Common.dll
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Core\bin\Debug\netcoreapp2.1\Recipe.NetCore.pdb
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Core\bin\Debug\netcoreapp2.1\Template.Common.pdb
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Core\obj\Debug\netcoreapp2.1\Template.Core.csprojAssemblyReference.cache
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Core\obj\Debug\netcoreapp2.1\Template.Core.csproj.CoreCompileInputs.cache
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Core\obj\Debug\netcoreapp2.1\Template.Core.AssemblyInfoInputs.cache
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Core\obj\Debug\netcoreapp2.1\Template.Core.AssemblyInfo.cs
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Core\obj\Debug\netcoreapp2.1\Template.Core.csproj.CopyComplete
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Core\obj\Debug\netcoreapp2.1\Template.Core.dll
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Core\obj\Debug\netcoreapp2.1\Template.Core.pdb

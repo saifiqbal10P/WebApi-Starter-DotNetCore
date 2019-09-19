@@ -1,0 +1,8 @@
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Common\bin\Debug\netcoreapp2.1\Template.Common.deps.json
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Common\bin\Debug\netcoreapp2.1\Template.Common.dll
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Common\bin\Debug\netcoreapp2.1\Template.Common.pdb
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Common\obj\Debug\netcoreapp2.1\Template.Common.csproj.CoreCompileInputs.cache
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Common\obj\Debug\netcoreapp2.1\Template.Common.AssemblyInfoInputs.cache
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Common\obj\Debug\netcoreapp2.1\Template.Common.AssemblyInfo.cs
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Common\obj\Debug\netcoreapp2.1\Template.Common.dll
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Common\obj\Debug\netcoreapp2.1\Template.Common.pdb
