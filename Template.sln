@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Api", "Template\Template.Api.csproj", "{A73A2071-A755-446C-9E7B-D776E73055D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template", "Template\Template.csproj", "{A73A2071-A755-446C-9E7B-D776E73055D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Common", "Template.Common\Template.Common.csproj", "{FD4DCC67-6303-4805-A6A4-FAD6FE4AC221}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Common", "Template.Common\Template.Common.csproj", "{FD4DCC67-6303-4805-A6A4-FAD6FE4AC221}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Core", "Template.Core\Template.Core.csproj", "{7FE5E5F9-FD73-4FFD-9427-2A594E33CE26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Core", "Template.Core\Template.Core.csproj", "{7FE5E5F9-FD73-4FFD-9427-2A594E33CE26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Repository", "Template.Repository\Template.Repository.csproj", "{D19FD23D-84A8-4C5B-A460-8497759D2BC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Repository", "Template.Repository\Template.Repository.csproj", "{D19FD23D-84A8-4C5B-A460-8497759D2BC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Service", "Template.Service\Template.Service.csproj", "{B2885E29-8707-4B66-BA0E-4D86F660B7CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Service", "Template.Service\Template.Service.csproj", "{B2885E29-8707-4B66-BA0E-4D86F660B7CD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recipe.NetCore", "Recipe.NetCore\Recipe.NetCore.csproj", "{E96067F0-731D-46E1-B28A-073A9591C6F3}"
 EndProject

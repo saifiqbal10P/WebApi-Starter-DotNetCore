@@ -6,3 +6,13 @@ C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template
 C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Common\obj\Debug\netcoreapp2.1\Template.Common.AssemblyInfo.cs
 C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Common\obj\Debug\netcoreapp2.1\Template.Common.dll
 C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Common\obj\Debug\netcoreapp2.1\Template.Common.pdb
+C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Common\obj\Debug\netcoreapp2.1\Template.Common.csprojAssemblyReference.cache
+D:\Projects\NetCoreTemplate\Template\Template.Common\bin\Debug\netcoreapp2.1\Template.Common.deps.json
+D:\Projects\NetCoreTemplate\Template\Template.Common\bin\Debug\netcoreapp2.1\Template.Common.dll
+D:\Projects\NetCoreTemplate\Template\Template.Common\bin\Debug\netcoreapp2.1\Template.Common.pdb
+D:\Projects\NetCoreTemplate\Template\Template.Common\obj\Debug\netcoreapp2.1\Template.Common.csproj.CoreCompileInputs.cache
+D:\Projects\NetCoreTemplate\Template\Template.Common\obj\Debug\netcoreapp2.1\Template.Common.AssemblyInfoInputs.cache
+D:\Projects\NetCoreTemplate\Template\Template.Common\obj\Debug\netcoreapp2.1\Template.Common.AssemblyInfo.cs
+D:\Projects\NetCoreTemplate\Template\Template.Common\obj\Debug\netcoreapp2.1\Template.Common.dll
+D:\Projects\NetCoreTemplate\Template\Template.Common\obj\Debug\netcoreapp2.1\Template.Common.pdb
+D:\Projects\NetCoreTemplate\Template\Template.Common\obj\Debug\netcoreapp2.1\Template.Common.csprojAssemblyReference.cache

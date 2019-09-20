@@ -7872,11 +7872,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\saifullah.iqbal\\Documents\\Visual Studio 2017\\Projects\\Template\\Recipe.NetCore\\Recipe.NetCore.csproj",
+      "projectUniqueName": "D:\\Projects\\NetCoreTemplate\\Template\\Recipe.NetCore\\Recipe.NetCore.csproj",
       "projectName": "Recipe.NetCore",
-      "projectPath": "C:\\Users\\saifullah.iqbal\\Documents\\Visual Studio 2017\\Projects\\Template\\Recipe.NetCore\\Recipe.NetCore.csproj",
+      "projectPath": "D:\\Projects\\NetCoreTemplate\\Template\\Recipe.NetCore\\Recipe.NetCore.csproj",
       "packagesPath": "C:\\Users\\saifullah.iqbal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\saifullah.iqbal\\Documents\\Visual Studio 2017\\Projects\\Template\\Recipe.NetCore\\obj\\",
+      "outputPath": "D:\\Projects\\NetCoreTemplate\\Template\\Recipe.NetCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7895,8 +7895,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\saifullah.iqbal\\Documents\\Visual Studio 2017\\Projects\\Template\\Template.Common\\Template.Common.csproj": {
-              "projectPath": "C:\\Users\\saifullah.iqbal\\Documents\\Visual Studio 2017\\Projects\\Template\\Template.Common\\Template.Common.csproj"
+            "D:\\Projects\\NetCoreTemplate\\Template\\Template.Common\\Template.Common.csproj": {
+              "projectPath": "D:\\Projects\\NetCoreTemplate\\Template\\Template.Common\\Template.Common.csproj"
             }
           }
         }

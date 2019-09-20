@@ -14,3 +14,19 @@ C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template
 C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Service\bin\Debug\netcoreapp2.1\Template.Common.pdb
 C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Service\obj\Debug\netcoreapp2.1\Template.Service.csprojAssemblyReference.cache
 C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Service\obj\Debug\netcoreapp2.1\Template.Service.csproj.CopyComplete
+D:\Projects\NetCoreTemplate\Template\Template.Service\obj\Debug\netcoreapp2.1\Template.Service.csprojAssemblyReference.cache
+D:\Projects\NetCoreTemplate\Template\Template.Service\obj\Debug\netcoreapp2.1\Template.Service.csproj.CoreCompileInputs.cache
+D:\Projects\NetCoreTemplate\Template\Template.Service\obj\Debug\netcoreapp2.1\Template.Service.AssemblyInfoInputs.cache
+D:\Projects\NetCoreTemplate\Template\Template.Service\obj\Debug\netcoreapp2.1\Template.Service.AssemblyInfo.cs
+D:\Projects\NetCoreTemplate\Template\Template.Service\bin\Debug\netcoreapp2.1\Template.Service.deps.json
+D:\Projects\NetCoreTemplate\Template\Template.Service\bin\Debug\netcoreapp2.1\Template.Service.dll
+D:\Projects\NetCoreTemplate\Template\Template.Service\bin\Debug\netcoreapp2.1\Template.Service.pdb
+D:\Projects\NetCoreTemplate\Template\Template.Service\bin\Debug\netcoreapp2.1\Recipe.NetCore.dll
+D:\Projects\NetCoreTemplate\Template\Template.Service\bin\Debug\netcoreapp2.1\Template.Common.dll
+D:\Projects\NetCoreTemplate\Template\Template.Service\bin\Debug\netcoreapp2.1\Template.Core.dll
+D:\Projects\NetCoreTemplate\Template\Template.Service\bin\Debug\netcoreapp2.1\Recipe.NetCore.pdb
+D:\Projects\NetCoreTemplate\Template\Template.Service\bin\Debug\netcoreapp2.1\Template.Core.pdb
+D:\Projects\NetCoreTemplate\Template\Template.Service\bin\Debug\netcoreapp2.1\Template.Common.pdb
+D:\Projects\NetCoreTemplate\Template\Template.Service\obj\Debug\netcoreapp2.1\Template.Service.csproj.CopyComplete
+D:\Projects\NetCoreTemplate\Template\Template.Service\obj\Debug\netcoreapp2.1\Template.Service.dll
+D:\Projects\NetCoreTemplate\Template\Template.Service\obj\Debug\netcoreapp2.1\Template.Service.pdb

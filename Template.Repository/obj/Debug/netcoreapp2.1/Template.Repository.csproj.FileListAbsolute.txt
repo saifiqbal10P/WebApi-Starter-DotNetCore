@@ -14,3 +14,19 @@ C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template
 C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Repository\bin\Debug\netcoreapp2.1\Template.Common.pdb
 C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Repository\obj\Debug\netcoreapp2.1\Template.Repository.csprojAssemblyReference.cache
 C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Repository\obj\Debug\netcoreapp2.1\Template.Repository.csproj.CopyComplete
+D:\Projects\NetCoreTemplate\Template\Template.Repository\bin\Debug\netcoreapp2.1\Template.Repository.deps.json
+D:\Projects\NetCoreTemplate\Template\Template.Repository\bin\Debug\netcoreapp2.1\Template.Repository.dll
+D:\Projects\NetCoreTemplate\Template\Template.Repository\bin\Debug\netcoreapp2.1\Template.Repository.pdb
+D:\Projects\NetCoreTemplate\Template\Template.Repository\bin\Debug\netcoreapp2.1\Recipe.NetCore.dll
+D:\Projects\NetCoreTemplate\Template\Template.Repository\bin\Debug\netcoreapp2.1\Template.Common.dll
+D:\Projects\NetCoreTemplate\Template\Template.Repository\bin\Debug\netcoreapp2.1\Template.Core.dll
+D:\Projects\NetCoreTemplate\Template\Template.Repository\bin\Debug\netcoreapp2.1\Recipe.NetCore.pdb
+D:\Projects\NetCoreTemplate\Template\Template.Repository\bin\Debug\netcoreapp2.1\Template.Core.pdb
+D:\Projects\NetCoreTemplate\Template\Template.Repository\bin\Debug\netcoreapp2.1\Template.Common.pdb
+D:\Projects\NetCoreTemplate\Template\Template.Repository\obj\Debug\netcoreapp2.1\Template.Repository.csprojAssemblyReference.cache
+D:\Projects\NetCoreTemplate\Template\Template.Repository\obj\Debug\netcoreapp2.1\Template.Repository.csproj.CoreCompileInputs.cache
+D:\Projects\NetCoreTemplate\Template\Template.Repository\obj\Debug\netcoreapp2.1\Template.Repository.AssemblyInfoInputs.cache
+D:\Projects\NetCoreTemplate\Template\Template.Repository\obj\Debug\netcoreapp2.1\Template.Repository.AssemblyInfo.cs
+D:\Projects\NetCoreTemplate\Template\Template.Repository\obj\Debug\netcoreapp2.1\Template.Repository.csproj.CopyComplete
+D:\Projects\NetCoreTemplate\Template\Template.Repository\obj\Debug\netcoreapp2.1\Template.Repository.dll
+D:\Projects\NetCoreTemplate\Template\Template.Repository\obj\Debug\netcoreapp2.1\Template.Repository.pdb

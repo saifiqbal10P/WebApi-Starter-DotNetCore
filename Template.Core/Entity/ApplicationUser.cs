@@ -24,6 +24,8 @@ namespace Template.Core.Entity
         [MaxLength(100)]
         public string DeviceId { get; set; }
 
+        public int UserType { get; set; }
+
         [MaxLength(255)]
         public string FirstName { get; set; }
 

@@ -12,6 +12,9 @@ namespace Template.Core.IService
 {
     public interface ITestTableService: IService<ITestTableRepository, TestTable, TestTableDTO, long>
     {
-        Task<DataTransferObject<List<TestTableDTO>>> GetByName(DataTransferObject<TestTable> model);
+        Task<DataTransferObject<List<TestTableDTO>>> GetByName(DataTransferObject<TestTableDTO> model);
+
+        Task<DataTransferObject<List<TestTableDTO>>> GetAll();
+
     }
 }

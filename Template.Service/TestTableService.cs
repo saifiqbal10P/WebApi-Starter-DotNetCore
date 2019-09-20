@@ -1,8 +1,10 @@
-﻿using Recipe.NetCore.Base.Abstract;
+﻿using AutoMapper;
+using Recipe.NetCore.Base.Abstract;
 using Recipe.NetCore.Base.Generic;
 using Recipe.NetCore.Base.Interface;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Template.Core.DbContext;
@@ -17,12 +19,14 @@ namespace Template.Service
     {
         private readonly ITestTableRepository TestTableRepository;
         private readonly IRequestInfo<TemplateContext> _requestInfo;
+        private readonly IMapper _mapper;
 
         public TestTableService(IUnitOfWork unitOfWork
-            , ITestTableRepository repository, IRequestInfo<TemplateContext> requestInfo)
+            , ITestTableRepository repository, IRequestInfo<TemplateContext> requestInfo,IMapper mapper)
             : base(unitOfWork, repository)
         {
             _requestInfo = requestInfo;
+            _mapper = mapper;
         }
 
 
@@ -47,9 +51,15 @@ namespace Template.Service
             throw new NotImplementedException();
         }
 
-        public Task<DataTransferObject<List<TestTableDTO>>> GetByName(DataTransferObject<TestTable> model)
+        public Task<DataTransferObject<List<TestTableDTO>>> GetByName(DataTransferObject<TestTableDTO> model)
         {
             throw new NotImplementedException();
+        }
+        public async Task<DataTransferObject<List<TestTableDTO>>> GetAll()
+        {
+            var result=await this.Repository.GetAll();
+            var response= _mapper.Map<List<TestTable>, List<TestTableDTO>>(result.ToList());
+            return new DataTransferObject<List<TestTableDTO>>(response);
         }
     }
 }

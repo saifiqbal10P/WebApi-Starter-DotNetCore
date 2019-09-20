@@ -15,6 +15,7 @@ namespace Template.Core.DbContext
 
         }
         public DbSet<TestTable> TestTable { get; set; }
+        public DbSet<AuthStore> AuthStore { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

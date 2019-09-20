@@ -726,11 +726,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\saifullah.iqbal\\Documents\\Visual Studio 2017\\Projects\\Template\\Template.Common\\Template.Common.csproj",
+      "projectUniqueName": "D:\\Projects\\NetCoreTemplate\\Template\\Template.Common\\Template.Common.csproj",
       "projectName": "Template.Common",
-      "projectPath": "C:\\Users\\saifullah.iqbal\\Documents\\Visual Studio 2017\\Projects\\Template\\Template.Common\\Template.Common.csproj",
+      "projectPath": "D:\\Projects\\NetCoreTemplate\\Template\\Template.Common\\Template.Common.csproj",
       "packagesPath": "C:\\Users\\saifullah.iqbal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\saifullah.iqbal\\Documents\\Visual Studio 2017\\Projects\\Template\\Template.Common\\obj\\",
+      "outputPath": "D:\\Projects\\NetCoreTemplate\\Template\\Template.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

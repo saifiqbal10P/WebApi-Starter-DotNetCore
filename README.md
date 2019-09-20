@@ -1,6 +1,6 @@
 Starter Template for .Net Core Web Api
 --------------------------------------
-This project contains recipecore.net that will provide CRUD operations for EntitFrameWork. Repository pattern has been implemented on this template.
+This project contains recipe project that will provide CRUD operations for EntitFrameWork. Repository pattern has been implemented on this template.
 
 Functionality Implemented 
 --------------------
@@ -19,7 +19,7 @@ How to Start
 3- On how to create service and repository for any entity. Please have a look at TestTableService and TestTableRepository. 
 4- Working Authentication is available. It can be tested from swagger. with UserName : superAdmin ,pwd: B00km@rk
 5- TestController can be tested with authorization by fist calling login . Capture token , then passing in Authorization header through postman or from swagger. 
-6- Logging sample on how to create Logs is availabel on Testcontroller-> GetAllTestResults(). Log file is available on project bin folder.
+6- Logging sample on to create Logs is availabel on Testcontroller-> GetAllTestResults(). Log file is available on project bin folder.
 7- For Every api response DataTransferObject class has been used that will return paginginfo ,filter, sorting etc..
 8- For Crud operations please see AuthService.cs
 
@@ -30,7 +30,3 @@ open package manager console then write 'add-migration 'migrationName''. see oth
 
 If above one doesn't work then open cli. Navigate to .Core project. Write "dotnet ef migrations add 'migrationname' -s ../Template". -S refers to startup project. For further command, use above mentioned link.
 
-
-TO DO
-------
-Unit Tests

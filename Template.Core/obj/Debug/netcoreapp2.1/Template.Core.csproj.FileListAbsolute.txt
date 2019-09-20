@@ -14,3 +14,19 @@ C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template
 C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Core\obj\Debug\netcoreapp2.1\Template.Core.csproj.CopyComplete
 C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Core\obj\Debug\netcoreapp2.1\Template.Core.dll
 C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Template.Core\obj\Debug\netcoreapp2.1\Template.Core.pdb
+D:\Projects\NetCoreTemplate\Template\Template.Core\bin\Debug\netcoreapp2.1\Template.Core.deps.json
+D:\Projects\NetCoreTemplate\Template\Template.Core\bin\Debug\netcoreapp2.1\Template.Core.runtimeconfig.json
+D:\Projects\NetCoreTemplate\Template\Template.Core\bin\Debug\netcoreapp2.1\Template.Core.runtimeconfig.dev.json
+D:\Projects\NetCoreTemplate\Template\Template.Core\bin\Debug\netcoreapp2.1\Template.Core.dll
+D:\Projects\NetCoreTemplate\Template\Template.Core\bin\Debug\netcoreapp2.1\Template.Core.pdb
+D:\Projects\NetCoreTemplate\Template\Template.Core\bin\Debug\netcoreapp2.1\Recipe.NetCore.dll
+D:\Projects\NetCoreTemplate\Template\Template.Core\bin\Debug\netcoreapp2.1\Template.Common.dll
+D:\Projects\NetCoreTemplate\Template\Template.Core\bin\Debug\netcoreapp2.1\Recipe.NetCore.pdb
+D:\Projects\NetCoreTemplate\Template\Template.Core\bin\Debug\netcoreapp2.1\Template.Common.pdb
+D:\Projects\NetCoreTemplate\Template\Template.Core\obj\Debug\netcoreapp2.1\Template.Core.csprojAssemblyReference.cache
+D:\Projects\NetCoreTemplate\Template\Template.Core\obj\Debug\netcoreapp2.1\Template.Core.csproj.CoreCompileInputs.cache
+D:\Projects\NetCoreTemplate\Template\Template.Core\obj\Debug\netcoreapp2.1\Template.Core.AssemblyInfoInputs.cache
+D:\Projects\NetCoreTemplate\Template\Template.Core\obj\Debug\netcoreapp2.1\Template.Core.AssemblyInfo.cs
+D:\Projects\NetCoreTemplate\Template\Template.Core\obj\Debug\netcoreapp2.1\Template.Core.csproj.CopyComplete
+D:\Projects\NetCoreTemplate\Template\Template.Core\obj\Debug\netcoreapp2.1\Template.Core.dll
+D:\Projects\NetCoreTemplate\Template\Template.Core\obj\Debug\netcoreapp2.1\Template.Core.pdb

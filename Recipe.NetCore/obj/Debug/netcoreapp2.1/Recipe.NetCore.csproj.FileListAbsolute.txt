@@ -22,3 +22,15 @@ C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Recipe.N
 C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Recipe.NetCore\obj\Debug\netcoreapp2.1\Recipe.NetCore.csproj.CopyComplete
 C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Recipe.NetCore\obj\Debug\netcoreapp2.1\Recipe.NetCore.dll
 C:\Users\saifullah.iqbal\Documents\Visual Studio 2017\Projects\Template\Recipe.NetCore\obj\Debug\netcoreapp2.1\Recipe.NetCore.pdb
+D:\Projects\NetCoreTemplate\Template\Recipe.NetCore\bin\Debug\netcoreapp2.1\Recipe.NetCore.deps.json
+D:\Projects\NetCoreTemplate\Template\Recipe.NetCore\bin\Debug\netcoreapp2.1\Recipe.NetCore.dll
+D:\Projects\NetCoreTemplate\Template\Recipe.NetCore\bin\Debug\netcoreapp2.1\Recipe.NetCore.pdb
+D:\Projects\NetCoreTemplate\Template\Recipe.NetCore\bin\Debug\netcoreapp2.1\Template.Common.dll
+D:\Projects\NetCoreTemplate\Template\Recipe.NetCore\bin\Debug\netcoreapp2.1\Template.Common.pdb
+D:\Projects\NetCoreTemplate\Template\Recipe.NetCore\obj\Debug\netcoreapp2.1\Recipe.NetCore.csprojAssemblyReference.cache
+D:\Projects\NetCoreTemplate\Template\Recipe.NetCore\obj\Debug\netcoreapp2.1\Recipe.NetCore.csproj.CoreCompileInputs.cache
+D:\Projects\NetCoreTemplate\Template\Recipe.NetCore\obj\Debug\netcoreapp2.1\Recipe.NetCore.AssemblyInfoInputs.cache
+D:\Projects\NetCoreTemplate\Template\Recipe.NetCore\obj\Debug\netcoreapp2.1\Recipe.NetCore.AssemblyInfo.cs
+D:\Projects\NetCoreTemplate\Template\Recipe.NetCore\obj\Debug\netcoreapp2.1\Recipe.NetCore.csproj.CopyComplete
+D:\Projects\NetCoreTemplate\Template\Recipe.NetCore\obj\Debug\netcoreapp2.1\Recipe.NetCore.dll
+D:\Projects\NetCoreTemplate\Template\Recipe.NetCore\obj\Debug\netcoreapp2.1\Recipe.NetCore.pdb
