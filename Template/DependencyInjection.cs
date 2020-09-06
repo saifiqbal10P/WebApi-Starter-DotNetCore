@@ -26,7 +26,7 @@ namespace Template.Api
         {
             #region Configurations
 
-            services.AddTransient<Core.Migrations.Configurations>();
+            services.AddScoped<Core.Migrations.Configurations>();
             services.Configure<RefreshTokenConfiguration>(Configuration.GetSection("RefreshToken"));
 
             #endregion 

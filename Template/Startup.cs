@@ -72,7 +72,7 @@ namespace Template
 
             try
             {
-                dbMigrationsConfig.SeedData().Wait();
+               dbMigrationsConfig.SeedData().Wait();
             }
             catch (Exception ex)
             {
