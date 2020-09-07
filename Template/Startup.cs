@@ -28,8 +28,6 @@ namespace Template
 {
     public class Startup
     {
-        private static string SecretKey = Environment.GetEnvironmentVariable("TokenSecretKey");
-        private readonly SymmetricSecurityKey _signingKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(SecretKey));
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -46,7 +44,7 @@ namespace Template
             AddSwagger(services);
             AddJWT(services);
             services.AddAutoMapper(typeof(Startup));
-           // AddAuthorization(services);
+            // AddAuthorization(services);
             //AddHangFire(services);
         }
 
@@ -72,7 +70,7 @@ namespace Template
 
             try
             {
-               dbMigrationsConfig.SeedData().Wait();
+                dbMigrationsConfig.SeedData().Wait();
             }
             catch (Exception ex)
             {
@@ -119,13 +117,17 @@ namespace Template
         {
             var jwtAppSettingOptions = Configuration.GetSection(nameof(JwtIssuerOptions));
 
+            var SecretKey = Configuration.GetSection("TokenSecretKey").Value;
+
+            var _signingKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(SecretKey));
+
             services.Configure<JwtIssuerOptions>(options =>
-            {
-                options.Issuer = jwtAppSettingOptions[nameof(JwtIssuerOptions.Issuer)];
-                options.Audience = jwtAppSettingOptions[nameof(JwtIssuerOptions.Audience)];
-                options.SigningCredentials = new SigningCredentials(_signingKey, SecurityAlgorithms.HmacSha256);
-                options.ValidFor = TimeSpan.FromMinutes(Convert.ToDouble(jwtAppSettingOptions[nameof(JwtIssuerOptions.ValidFor)]));
-            });
+                {
+                    options.Issuer = jwtAppSettingOptions[nameof(JwtIssuerOptions.Issuer)];
+                    options.Audience = jwtAppSettingOptions[nameof(JwtIssuerOptions.Audience)];
+                    options.SigningCredentials = new SigningCredentials(_signingKey, SecurityAlgorithms.HmacSha256);
+                    options.ValidFor = TimeSpan.FromMinutes(Convert.ToDouble(jwtAppSettingOptions[nameof(JwtIssuerOptions.ValidFor)]));
+                });
 
             var tokenValidationParameters = new TokenValidationParameters
             {
@@ -144,16 +146,16 @@ namespace Template
             };
 
             services.AddAuthentication(options =>
-            {
-                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-            })
-            .AddJwtBearer(configureOptions =>
-            {
-                configureOptions.ClaimsIssuer = jwtAppSettingOptions[nameof(JwtIssuerOptions.Issuer)];
-                configureOptions.TokenValidationParameters = tokenValidationParameters;
-                configureOptions.SaveToken = true;
-            });
+                    {
+                        options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                        options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+                    })
+                    .AddJwtBearer(configureOptions =>
+                    {
+                        configureOptions.ClaimsIssuer = jwtAppSettingOptions[nameof(JwtIssuerOptions.Issuer)];
+                        configureOptions.TokenValidationParameters = tokenValidationParameters;
+                        configureOptions.SaveToken = true;
+                    });
         }
 
         private void AddEntityFramework(IServiceCollection services)
