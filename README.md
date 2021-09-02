@@ -4,19 +4,21 @@ This project contains recipe project that will provide CRUD operations for Entit
 
 Functionality Implemented 
 --------------------
-1- Swagger
+1- Swagger.
 
-2- Authentication, Authorization with .net core identity
+2- Authentication, Authorization with .net core identity.
 
 3- Authentication mechanism is jwt bearer token with refresh token implemented.
 
-4- Nlog is used for logging
+4- Nlog is used for logging.
 
-5- Some action filter has been implemented to handle global exception and model validation
+5- Some action filter has been implemented to handle global exception and model validation.
 
-6- Entityframework code approach has been used in this template with intitial seed function configured
+6- Entityframework code approach has been used in this template with intitial seed function configured.
 
-7- Automapper
+7- Automapper.
+
+8- HangFire for background jobs.
 
 How to Start
 ------------
