@@ -46,6 +46,7 @@ namespace Template.Api
             #region Auth
             services.AddScoped<IJwtFactory, JwtFactory>();
             services.AddScoped(typeof(IAuthService), typeof(AuthService));
+            services.AddScoped(typeof(IBackgroundJobService), typeof(BackgroundJobService));
             services.AddScoped(typeof(IAuthRepository), typeof(AuthRepository));
             services.AddScoped<IPasswordHasher<ApplicationUser>, PasswordHasher<ApplicationUser>>();
             #endregion    

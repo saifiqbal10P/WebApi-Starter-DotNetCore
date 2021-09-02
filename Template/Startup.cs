@@ -2,20 +2,19 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using AutoMapper;
+using Hangfire;
+using Hangfire.SqlServer;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Swagger;
 using Template.Api;
 using Template.Api.ActionFilters;
@@ -43,9 +42,10 @@ namespace Template
             AddEntityFramework(services);
             AddSwagger(services);
             AddJWT(services);
+            AddMVC(services);
             services.AddAutoMapper(typeof(Startup));
-            // AddAuthorization(services);
-            //AddHangFire(services);
+            AddAuthorization(services);
+            AddHangfire(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -60,8 +60,10 @@ namespace Template
                 app.UseHsts();
             }
             app.UseAuthentication();
+            app.UseRouting();
+            app.UseAuthorization();
+            app.UseEndpoints(endpoints => endpoints.MapControllers());
             app.UseHttpsRedirection();
-            app.UseMvc();
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
@@ -86,31 +88,43 @@ namespace Template
 
         private void AddMVC(IServiceCollection services)
         {
-            services.AddMvc(options =>
+            services.AddMvc(opt =>
             {
-                options.Filters.Add(typeof(GlobalExceptionAttribute));
-            });
+                opt.Filters.Add(typeof(GlobalExceptionAttribute));
+            }).SetCompatibilityVersion(CompatibilityVersion.Latest);
         }
 
         private void AddSwagger(IServiceCollection services)
         {
+
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Info
+                var jwtSecurityScheme = new OpenApiSecurityScheme
                 {
-                    Version = "v1",
-                    Title = "Template",
-                    Description = "Template  Web API",
-                    TermsOfService = "None",
+                    Scheme = "bearer",
+                    BearerFormat = "JWT",
+                    Name = "JWT Authentication",
+                    In = ParameterLocation.Header,
+                    Type = SecuritySchemeType.Http,
+                    Description = "Put **_ONLY_** your JWT Bearer token on textbox below!",
 
+                    Reference = new OpenApiReference
+                    {
+                        Id = JwtBearerDefaults.AuthenticationScheme,
+                        Type = ReferenceType.SecurityScheme
+                    }
+                };
+
+                c.AddSecurityDefinition(jwtSecurityScheme.Reference.Id, jwtSecurityScheme);
+
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement
+                {
+                    { jwtSecurityScheme, Array.Empty<string>() }
                 });
-                c.AddSecurityDefinition("Bearer", new ApiKeyScheme { In = "header", Description = "Please enter JWT with Bearer into field", Name = "Authorization", Type = "apiKey" });
-                c.AddSecurityRequirement(new Dictionary<string, IEnumerable<string>> {
-                { "Bearer", Enumerable.Empty<string>() },
-                 });
 
-                //c.CustomSchemaIds(x => x.FullName);
             });
+
+            services.AddSwaggerGenNewtonsoftSupport();  //To use newtonsoft json serializer as default.
         }
 
         private void AddJWT(IServiceCollection services)
@@ -183,6 +197,23 @@ namespace Template
         private void AddAuthorization(IServiceCollection services)
         {
             services.AddAuthorization();
+        }
+
+        private void AddHangfire(IServiceCollection services)
+        {
+            services.AddHangfire(configuration => configuration
+                    .SetDataCompatibilityLevel(CompatibilityLevel.Version_170)
+                    .UseSimpleAssemblyNameTypeSerializer()
+                    .UseRecommendedSerializerSettings()
+                    .UseSqlServerStorage(Configuration.GetConnectionString("DefaultConnection"), new SqlServerStorageOptions
+                    {
+                        CommandBatchMaxTimeout = TimeSpan.FromMinutes(5),
+                        SlidingInvisibilityTimeout = TimeSpan.FromMinutes(5),
+                        QueuePollInterval = TimeSpan.Zero,
+                        UseRecommendedIsolationLevel = true,
+                        DisableGlobalLocks = true
+                    }));
+            services.AddHangfireServer();
         }
     }
 }

@@ -57,6 +57,8 @@ namespace Template.Service
         }
         public async Task<DataTransferObject<List<TestTableDTO>>> GetAll()
         {
+            await this.Repository.Create(new TestTable() { Name = "Saif", Classification = "test" });
+            _requestInfo.Context.SaveChanges();
             var result=await this.Repository.GetAll();
             var response= _mapper.Map<List<TestTable>, List<TestTableDTO>>(result.ToList());
             return new DataTransferObject<List<TestTableDTO>>(response);

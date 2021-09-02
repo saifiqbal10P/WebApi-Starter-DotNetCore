@@ -38,7 +38,6 @@ namespace Template
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseIISIntegration()
-                .UseKestrel()
                 .UseStartup<Startup>().ConfigureLogging(logging =>
                 {
                     logging.ClearProviders();
